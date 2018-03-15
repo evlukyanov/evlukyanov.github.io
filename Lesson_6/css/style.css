@@ -1,0 +1,114 @@
+.container {
+	width: 1300px;
+	height: 600px;
+	text-align: center;
+}
+
+.slogan {
+	font-family: 'Arvo';
+	font-size: 30px;
+	color: #3b3f6a;
+	text-align: center;
+}
+
+.box_1, .box_2, .box_3, .box_4 {
+	width: 100%;
+	height: 350px;
+	border: 1px solid black;
+	margin-top: 115px;
+}
+
+.box_1_img {
+	margin: 0 auto;
+	width: 70%;
+	height: 150px;
+	background: url(../img/img_1.jpg) no-repeat center center;
+}
+
+.box_2_img {
+	margin: 0 auto;
+	width: 70%;
+	height: 150px;
+	background: url(../img/img_2.jpg) no-repeat center center;
+}
+
+.box_3_img {
+	margin: 0 auto;
+	width: 70%;
+	height: 150px;
+	background: url(../img/img_3.jpg) no-repeat center center;
+}
+
+.box_4_img {
+	margin: 0 auto;
+	width: 70%;
+	height: 150px;
+	background: url(../img/img_4.jpg) no-repeat center center;
+}
+
+
+
+.box_1 p {
+	margin: 30px auto;
+	width: 80%;
+	font-family: 'Arvo';
+	font-size: 22px;
+	color: #3b3f6a;
+}
+
+.box_1 p + p {
+	margin: 10px auto;
+	width: 80%;
+	font-family: 'Noto+Sans';
+	font-size: 20px;
+	color: #686c8b;
+}
+
+.box_2 p {
+	margin: 30px auto;
+	width: 70%;
+	font-family: 'Arvo';
+	font-size: 22px;
+	color: #3b3f6a;
+}
+
+.box_2 p + p {
+	margin: 10px auto;
+	width: 80%;
+	font-family: 'Noto+Sans';
+	font-size: 20px;
+	color: #686c8b;
+}
+
+.box_3 p {
+	margin: 30px auto;
+	width: 70%;
+	font-family: 'Arvo';
+	font-size: 22px;
+	color: #3b3f6a;
+}
+
+.box_3 p + p {
+	margin: 10px auto;
+	width: 80%;
+	font-family: 'Noto+Sans';
+	font-size: 20px;
+	color: #686c8b;
+}
+
+.box_4 p {
+	margin: 30px auto;
+	width: 50%;
+	font-family: 'Arvo';
+	font-size: 22px;
+	color: #3b3f6a;
+}
+
+.box_4 p + p {
+	margin: 10px auto;
+	width: 80%;
+	font-family: 'Noto+Sans';
+	font-size: 20px;
+	color: #686c8b;
+}
+
