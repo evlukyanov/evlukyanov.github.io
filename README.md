@@ -8,3 +8,5 @@
 [Урок 5 продвинутого курса](evlukyanov.github.io/Lesson_5/)
 
 [Урок 6 продвинутого курса](evlukyanov.github.io/Lesson_6/)
+
+[Урок 8 продвинутого курса](evlukyanov.github.io/Lesson_8/)
