@@ -10,3 +10,5 @@
 [Урок 6 продвинутого курса](evlukyanov.github.io/Lesson_6/)
 
 [Урок 8 продвинутого курса](evlukyanov.github.io/Lesson_8/)
+
+[Урок 9 Практика 1 продвинутого курса](evlukyanov.github.io/lesson_9_pr1/)
