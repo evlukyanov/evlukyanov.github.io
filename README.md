@@ -18,3 +18,5 @@
 [Урок 11 продвинутого курса](evlukyanov.github.io/Lesson_11/)
 
 [Урок 12 продвинутого курса](evlukyanov.github.io/Lesson_12/)
+
+[Урок 13 продвинутого курса](evlukyanov.github.io/Lesson_13/)
