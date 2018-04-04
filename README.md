@@ -24,3 +24,5 @@
 [Урок 14 Практика 2 продвинутого курса](evlukyanov.github.io/Lesson_14_pr2/)
 
 [Урок 15 продвинутого курса](evlukyanov.github.io/Lesson_15/)
+
+[Урок 16 продвинутого курса](evlukyanov.github.io/Lesson_16/)
