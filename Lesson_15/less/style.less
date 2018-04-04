@@ -4,7 +4,7 @@
 
 html {
 	font-size: 10px;
-	width: 1920px;
+	
 }
 
 .header {
@@ -12,8 +12,9 @@ html {
 	height: 75rem;
 	background: url(../img/header-bg.png) no-repeat center center;
 	position: relative;
+	display: inline-block;
 	.logo {
-		width: 80%;
+		width: 75%;
 		display: inline-block;
 		margin-left: 37rem;
 		margin-top: 5rem;
@@ -63,7 +64,8 @@ html {
 		width: 58%;
 		color: #ffff33;
 		text-transform: uppercase;
-		margin: 5rem auto;
+		margin: 0 auto;
+		margin-top: 3rem;
 		font-family: 'P22UndergroundCYPro-Heavy';
 		font-size: 3.7rem;
 		text-align: center;
@@ -111,8 +113,12 @@ html {
 	}
 	.money {
 			display: inline-block;
+			width: 25rem;
+			height: 25rem;
+			background: url(../img/money.png) no-repeat center center;
+			background-size: 100%;
 			position: absolute;
-			bottom: -4rem;
+			bottom: -7rem;
 			left: 50%;
 			z-index: 1;
 			transform: translateX(-50%);
@@ -150,10 +156,16 @@ html {
 			}
 		}
 		.icon_name {
+			width: 6rem;
+			height: 5.9rem;
+			background: url(../img/form/name.png) no-repeat center center;
+			background-size: cover;
 			display: inline-block;
 			position: absolute;
 			top: 16.6rem;
 			left: 5.0rem;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
 		}
 		.form_call {
 			width: 26rem;
@@ -171,6 +183,10 @@ html {
 			}
 		}
 		.icon_call {
+			width: 6rem;
+			height: 5.9rem;
+			background: url(../img/form/call.png) no-repeat center center;
+			background-size: cover;
 			display: inline-block;
 			position: absolute;
 			top: 23.3rem;
@@ -204,6 +220,7 @@ html {
 	height: 83.3rem;
 	background-color: #fff;
 	position: relative;
+	display: inline-block;
 	.row_1 {
 		width: 100%;
 		text-align: center;
@@ -360,82 +377,121 @@ html {
 	background-color: #fbfbfb;
 	text-align: center;
 	position: relative;
-	.number {
+	display: inline-block;
+	.number_one {
 		display: inline-block;
-		width: 10.2%;
-		height: 7.5rem;
-		color: #ffff33;
+		width: 12%;
+		height: 40rem;
 		font-size: 10rem;
 		font-family: 'P22UndergroundCYPro-Heavy';
-		margin-top: 10rem;
-		margin-left: 5rem;
+		position: absolute;
+		top: 10rem;
+		left: 33rem;
+	}
+	.number_two {
+		display: inline-block;
+		width: 12%;
+		height: 40rem;
+		font-size: 10rem;
+		font-family: 'P22UndergroundCYPro-Heavy';
+		position: absolute;
+		top: 10rem;
+		left: 58rem;
+	}
+	.number_three {
+		display: inline-block;
+		width: 12%;
+		height: 40rem;
+		font-size: 10rem;
+		font-family: 'P22UndergroundCYPro-Heavy';
+		position: absolute;
+		top: 10rem;
+		left: 85rem;
+	}
+	.number_four {
+		display: inline-block;
+		width: 12%;
+		height: 40rem;
+		font-size: 10rem;
+		font-family: 'P22UndergroundCYPro-Heavy';
+		position: absolute;
+		top: 10rem;
+		left: 111rem;
+	}
+	.number_fifth {
+		display: inline-block;
+		width: 12%;
+		height: 40rem;
+		font-size: 10rem;
+		font-family: 'P22UndergroundCYPro-Heavy';
+		position: absolute;
+		top: 10rem;
+		left: 138rem;
+	}
+	span {
+		color: #ffff33;
+		display: block;
 	}
 	.line {
-		width: 90%;
-		margin-top: 3rem;
-		margin-left: 12rem;
+		background: url(../img/line.svg) no-repeat center center;
+		background-size: 75%;
+		display: inline-block;
+		width: 80%;
+		height: 3rem;
+		position: absolute;
+		top: 23rem;
+		left: 20rem;
 	}
 	.one {
 		display: inline-block;
-		width: 10.2%;
-		height: 3rem;
+		width: 100%;
+		margin-top: 10rem;
 		font-family: 'P22UndergroundCYPro-Book';
 		font-size: 1.8rem;
 		text-align: center;
-		position: absolute;
-		top: 25rem;
-		left: 38rem;
+		
 	}
 	.two {
 		display: inline-block;
-		width: 10.2%;
-		height: 3rem;
+		width: 100%;
+		margin-top: 10rem;
 		font-family: 'P22UndergroundCYPro-Book';
 		font-size: 1.8rem;
 		text-align: center;
-		position: absolute;
-		top: 25rem;
-		left: 63rem;
+		
 	}
 	.three {
 		display: inline-block;
-		width: 10.2%;
-		height: 3rem;
+		width: 100%;
+		margin-top: 10rem;
 		font-family: 'P22UndergroundCYPro-Book';
 		font-size: 1.8rem;
 		text-align: center;
-		position: absolute;
-		top: 25rem;
-		left: 88rem;
+		
 	}
 	.four {
 		display: inline-block;
-		width: 10.2%;
-		height: 3rem;
+		width: 100%;
+		margin-top: 10rem;
 		font-family: 'P22UndergroundCYPro-Book';
 		font-size: 1.8rem;
 		text-align: center;
-		position: absolute;
-		top: 25rem;
-		left: 114rem;
 	}
 	.fifth {
 		display: inline-block;
-		width: 10.2%;
-		height: 3rem;
+		width: 100%;
+		margin-top: 10rem;
 		font-family: 'P22UndergroundCYPro-Book';
 		font-size: 1.8rem;
 		text-align: center;
-		position: absolute;
-		top: 25rem;
-		left: 140rem;
+		
 	}
 	.footer-form {
 		width: 108rem;
 		height: 15.8rem;
 		background-color: #333333;
 		margin: 0 auto;
-		margin-top: 20rem;
+		margin-top: 45rem;
 		border-radius: 0.5rem;
 		position: relative;
 		.footer_name {
@@ -453,9 +509,16 @@ html {
 			border-bottom-right-radius: 0.5rem;
 		}
 		.icon_footer_name {
+			width: 6rem;
+			height: 5.9rem;
+			display: inline-block;
+			background: url(../img/form/footer_name.png) no-repeat center center;
 			position: absolute;
 			top: 5rem;
 			left: 5rem;
+			background-size: cover;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
 		}
 		.footer_call {
 			width: 26rem;
@@ -472,6 +535,13 @@ html {
 			border-bottom-right-radius: 0.5rem;
 		}
 		.icon_footer_call {
+			width: 6rem;
+			height: 5.9rem;
+			display: inline-block;
+			background: url(../img/form/footer_call.png) no-repeat center center;
+			background-size: cover;
+			border-top-left-radius: 5px;
+			border-bottom-left-radius: 5px;
 			position: absolute;
 			top: 5rem;
 			left: 38rem;
@@ -495,120 +565,331 @@ html {
 	}
 }
 
-@media (max-width: 1024px) {
-	.header {
-		.logo {
-			&_main_text {
-				font-size: 3rem;
-			}
-			&_text {
-				font-size: 2.5rem;
-			}
-			.header_ring {
-				font-size: 2.5rem;
-				width: 20rem;
-				left: 75rem;
-			}
-			.header_tel {
-				font-size: 3.5rem;
-				top: 1.3rem;
-			}
-		}
-		.quality_1, .quality_2, .quality_3 {
-			font-size: 3.5rem;
-			left: 35rem;
-		}
-		.quality_3 {
-			width: 70rem;
-		}
-		.header-form {
-			.form_text {
-				font-size: 2.8rem;
-			}
-			.form_name {
-				font-size: 2.5rem;
-			}
-			.form_call {
-				font-size: 2.5rem;
-			}
-			.form_btn {
-				font-size: 2.5rem;
-			}
-		}
-	}
-	.main {
-		.row_1 {
-			top: 5rem;
-			.item_1 {
-				&_text {
-					font-size: 2.8rem;
-				}
-			}
-			.item_2 {
-				&_text {
-					font-size: 2.8rem;
-				}
-			}
-			.item_3 {
-				&_text {
-					font-size: 2.8rem;
-				}
-			}
-			.item_4 {
-				&_text {
-					font-size: 2.8rem;
-				}
-			}
-		}
-		.row_2 {
-			.item_5 {
-				&_text {
-					font-size: 2.8rem;
-				}
-			}
-			.item_6 {
-				&_text {
-					font-size: 2.8rem;
-				}
-			}
-			.item_7 {
-				&_text {
-					font-size: 2.8rem;
-				}
-			}
-			.item_8 {
-				&_text {
-					font-size: 2.8rem;
-				}
-			}
-		}
-		.row_3 {
-			.item_9 {
-				&_text {
-					font-size: 2.8rem;
-				}
-			}
-			.item_10 {
-				&_text {
-					font-size: 2.8rem;
-				}
-			}
-		}
-	}
 
-	.footer {
-		.one, .two, .three, .four, .fifth {
-			font-size: 2.5rem;
+@media (max-width: 1600px) {
+	html {
+		font-size: 9px;
+		.header {
+
 		}
-		.footer-form {
-			.footer_name {
-				font-size: 2.5rem;
+		.footer {
+			.line {
+				left: 18rem;
 			}
-			.footer_call {
-				font-size: 2.5rem;
+			.number_one {
+				left: 25rem;
 			}
-			.footer_ring {
-				font-size: 2.5rem;
+			.number_two {
+				left: 50rem;
+			}
+			.number_three {
+				left: 73rem;
+			}
+			.number_four {
+				left: 96rem;
+			}
+			.number_fifth {
+				left: 120rem;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 1300px) {
+	html {
+		font-size: 8px;
+		.header {
+			.logo {
+				margin-left: 33rem;
+				.logo_main_text {
+					left: 14rem;
+				}
+				.logo_text {
+					left: 14rem;
+				}
+			}
+		}
+
+		.main {
+			.row_1 {
+				.item_1 {
+					left: 30rem;
+				}
+				.item_2 {
+					left: 60rem;
+				}
+				.item_3 {
+					left: 90rem;
+				}
+				.item_4 {
+					left: 120rem;
+				}
+			}
+			.row_2 {
+				.item_5 {
+					left: 30rem;
+				}
+				.item_6 {
+					left: 60rem;
+				}
+				.item_7 {
+					left: 90rem;
+				}
+				.item_8 {
+					left: 120rem;
+				}
+			}
+			.row_3 {
+				.item_9 {
+					left: 60rem;
+				}
+				.item_10 {
+					left: 90rem;
+				}
+			}
+		}
+		.footer {
+			.line {
+				background-size: 100%;
+				left: 18rem;
+			}
+			.number_one {
+				left: 10rem;
+			}
+			.number_two {
+				left: 42rem;
+			}
+			.number_three {
+				left: 73rem;
+			}
+			.number_four {
+				left: 103rem;
+			}
+			.number_fifth {
+				left: 135rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 1200px) {
+	html {
+		font-size: 7px;
+		.header {
+			.logo {
+				.header_ring {
+					left: 70rem;
+				}
+				.header_tel {
+					left: 90rem;
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 1100px) {
+	html {
+		font-size: 6px;
+		.footer {
+			.line {
+				left: 18rem;
+			}
+			.number_one {
+				left: 15rem;
+			}
+			.number_two {
+				left: 47rem;
+			}
+			.number_three {
+				left: 79rem;
+			}
+			.number_four {
+				left: 110rem;
+			}
+			.number_fifth {
+				left: 143rem;
+			}
+		}
+	}
+}
+
+
+@media (max-width: 992px) {
+	html {
+		font-size: 5px;
+		.header {
+			.logo {
+				width: 98%;
+				margin-left: 10rem;
+				.logo_main_text {
+					left: 18rem;
+				}
+				.logo_text {
+					left: 18rem;
+				}
+				.header_ring {
+					left: 80rem;
+				}
+				.header_tel {
+					left: 100rem;
+				}
+			}
+			.quality_1 {
+				left: 5rem;
+			}
+			.quality_2 {
+				left: 5rem;
+			}
+			.quality_3 {
+				left: 5rem;
+			}
+			.header-form {
+				left: 85rem;
+			}
+			.main_text {
+				margin-top: 0;
+				line-height: 1;
+			}
+		}
+		.footer {
+			.line {
+				left: 18rem;
+			}
+			.number_one {
+				left: 16rem;
+			}
+			.number_two {
+				left: 42rem;
+			}
+			.number_three {
+				left: 68rem;
+			}
+			.number_four {
+				left: 93rem;
+			}
+			.number_fifth {
+				left: 120rem;
+			}
+		}
+	}
+}
+
+@media (max-width: 768px) {
+	html {
+		font-size: 5px;
+		.header {
+			.logo {
+				width: 98%;
+				margin-left: 1rem;
+				.logo_main_text {
+					left: 18rem;
+				}
+				.logo_text {
+					left: 18rem;
+				}
+				.header_ring {
+					left: 50rem;
+				}
+				.header_tel {
+					left: 70rem;
+				}
+			}
+			.quality_1 {
+				left: 5rem;
+			}
+			.quality_2 {
+				left: 5rem;
+			}
+			.quality_3 {
+				left: 5rem;
+			}
+			.header-form {
+				left: 50rem;
+			}
+			.main_text {
+				margin-top: 0;
+				line-height: 1;
+			}
+		}
+		.main {
+			.row_1 {
+				.item_1 {
+					left: 5rem;
+				}
+				.item_2 {
+					left: 30rem;
+				}
+				.item_3 {
+					left: 55rem;
+				}
+				.item_4 {
+					left: 80rem;
+				}
+			}
+			.row_2 {
+				.item_5 {
+					left: 5rem;
+				}
+				.item_6 {
+					left: 30rem;
+				}
+				.item_7 {
+					left: 55rem;
+				}
+				.item_8 {
+					left: 80rem;
+				}
+			}
+			.row_3 {
+				.item_9 {
+					left: 30rem;
+				}
+				.item_10 {
+					left: 55rem;
+				}
+			}
+		}
+		.footer {
+			.line {
+				left: 10rem;
+			}
+			.number_one {
+				left: 5rem;
+			}
+			.number_two {
+				left: 25rem;
+			}
+			.number_three {
+				left: 44rem;
+			}
+			.number_four {
+				left: 63rem;
+			}
+			.number_fifth {
+				left: 82rem;
+			}
+			.footer-form {
+				width: 95%;
+				.icon_footer_name {
+					left: 2rem;
+				}
+				.footer_name {
+					width: 20rem;
+					left: 8.1rem;
+				}
+				.icon_footer_call {
+					left: 30rem;
+				}
+				.footer_call {
+					width: 20rem;
+					left: 36rem;
+				}
+				.footer_ring {
+					width: 20rem;
+					left: 60rem;
+				}
 			}
 		}
 	}
