@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>jquery</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+	<a href="#modal" class="modal-link">Ссылка на модальное окно</a>
+
+	<div class="box">
+		<ul>
+			<li><a href="#">Домой</a></li>
+			<li><a href="#">Контакты</a></li>
+			<li><a href="#">Отправить письмо</a></li>
+		</ul>
+	</div>
+
+
+
+
+
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script>
+		$(document).ready(function(){
+		});
+			$('.modal-link').click(function() {
+			$('.box').toggleClass('active');
+		});
+
+		
+	</script>
+</body>
+</html>

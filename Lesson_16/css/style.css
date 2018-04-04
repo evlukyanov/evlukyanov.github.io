@@ -1,0 +1,14 @@
+.box {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  left: -300px;
+  transition: all 0.5s;
+}
+.active {
+  width: 250px;
+  height: 200px;
+  position: absolute;
+  left: 0px;
+  transition: all 0.5s;
+}
