@@ -26,3 +26,5 @@
 [Урок 15 продвинутого курса](evlukyanov.github.io/Lesson_15/)
 
 [Урок 16 продвинутого курса](evlukyanov.github.io/Lesson_16/)
+
+[Урок 16 Практика 3 продвинутого курса](evlukyanov.github.io/Lesson_16_pr3/)
