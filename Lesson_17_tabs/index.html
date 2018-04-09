@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Tabs</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	
+	<div class="header">
+		<div class="tabs-panel">
+			<div class="tabs">
+				<div class="tab tab-1"><p>Вопросы</p></div>
+				<div class="tab tab-2"><p>Жалоба</p></div>
+				<div class="tab tab-3"><p>Регистрация</p></div>
+			</div>
+			<div class="tabs-content">
+				<div class="tab-content-1">
+					<p class="text_name">Имя</p>
+					<input type="text" class="name">
+					<p class="text_email">Email</p>
+					<input type="text" class="email">
+					<p class="text_theme">Тема сообщения</p>
+					<input type="text" class="theme">
+					<button class="send">Отправить сообщение</button>
+					<p class="text_message">Сообщение</p>
+					<input type="text" class="message" size="10">
+				</div>
+				<div class="tab-content-2">
+					<p class="text_petition">Жалоба</p>
+					<input type="text" class="petition">
+					<button class="send_petition">Отправить жалобу</button>
+				</div>
+				<div class="tab-content-3">
+					<p class="user_name">Введите имя</p>
+					<input type="text" class="user">
+					<p class="user_password">Введите пароль</p>
+					<input type="text" class="password">
+					<button class="reg">Зарегистрироваться</button>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script>
+		$(document).ready(function() {
+			$('.tab-1').click(function() {
+				$('.tab-1').addClass('tab-1-active');
+				$('.tab-2').removeClass('tab-2-active');
+				$('.tab-3').removeClass('tab-3-active');
+				$('.tab-content-1').show();
+				$('.tab-content-2').hide();
+				$('.tab-content-3').hide();
+			});
+
+			$('.tab-2').click(function() {
+				$('.tab-1').removeClass('tab-1-active');
+				$('.tab-3').removeClass('tab-3-active');
+				$('.tab-2').addClass('tab-2-active');
+				$('.tab-content-2').show();
+				$('.tab-content-1').hide();
+				$('.tab-content-3').hide();
+			});
+
+			$('.tab-3').click(function() {
+				$('.tab-1').removeClass('tab-1-active');
+				$('.tab-2').removeClass('tab-2-active');
+				$('.tab-3').addClass('tab-3-active');
+				$('.tab-content-3').show();
+				$('.tab-content-1').hide();
+				$('.tab-content-2').hide();
+			});
+		});
+		
+	</script>
+</body>
+</html>

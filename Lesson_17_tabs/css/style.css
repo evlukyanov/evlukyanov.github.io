@@ -1,0 +1,241 @@
+* {
+  box-sizing: border-box;
+}
+.header {
+  width: 680px;
+  height: 400px;
+  background-color: #ebebeb;
+  margin: 200px auto;
+}
+.header .tabs-panel {
+  width: 580px;
+  height: 400px;
+  margin-left: 50px;
+}
+.header .tabs-panel .tabs {
+  width: 100%;
+  height: 59px;
+  border-bottom: 1px solid #d4dee5;
+}
+.header .tabs-panel .tabs .tab {
+  display: inline-block;
+  text-align: center;
+  border: 1px solid #d4dee5;
+  border-bottom: none;
+  height: 29px;
+  margin-top: 29px;
+  color: #7794aa;
+  font-size: 14px;
+  background-color: #fff;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs .tab:hover {
+  cursor: pointer;
+}
+.header .tabs-panel .tabs .tab p {
+  margin: 6px auto;
+}
+.header .tabs-panel .tabs .tab-1 {
+  width: 81px;
+}
+.header .tabs-panel .tabs .tab-1-active {
+  background-color: #7995ab;
+  color: #fff;
+}
+.header .tabs-panel .tabs .tab-2 {
+  width: 90px;
+  margin-left: 12px;
+}
+.header .tabs-panel .tabs .tab-2-active {
+  background-color: #7995ab;
+  color: #fff;
+}
+.header .tabs-panel .tabs .tab-3 {
+  width: 122px;
+  margin-left: 12px;
+}
+.header .tabs-panel .tabs .tab-3-active {
+  background-color: #7995ab;
+  color: #fff;
+}
+.header .tabs-panel .tabs-content {
+  width: 100%;
+  height: 330px;
+}
+.header .tabs-panel .tabs-content .tab-content-1 {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.header .tabs-panel .tabs-content .tab-content-1 .text_name {
+  width: 30%;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: #425666;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs-content .tab-content-1 .name {
+  width: 278px;
+  height: 32px;
+  margin-left: 20px;
+  border: 1px solid #b2c4d4;
+  outline: none;
+  padding-left: 20px;
+}
+.header .tabs-panel .tabs-content .tab-content-1 .text_email {
+  width: 30%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: #425666;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs-content .tab-content-1 .email {
+  width: 278px;
+  height: 32px;
+  margin-left: 20px;
+  border: 1px solid #b2c4d4;
+  outline: none;
+  padding-left: 20px;
+}
+.header .tabs-panel .tabs-content .tab-content-1 .text_theme {
+  width: 35%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: #425666;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs-content .tab-content-1 .theme {
+  width: 278px;
+  height: 32px;
+  margin-left: 20px;
+  border: 1px solid #b2c4d4;
+  outline: none;
+  padding-left: 20px;
+}
+.header .tabs-panel .tabs-content .tab-content-1 .send {
+  display: block;
+  margin-left: 20px;
+  margin-top: 22px;
+  width: 220px;
+  height: 41px;
+  border-radius: 20px;
+  border: 1px solid #9ab544;
+  background-color: #67bb0c;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs-content .tab-content-1 .send:hover {
+  cursor: pointer;
+}
+.header .tabs-panel .tabs-content .tab-content-1 .text_message {
+  position: absolute;
+  top: 0;
+  left: 320px;
+  width: 35%;
+  margin: 0;
+  color: #425666;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs-content .tab-content-1 .message {
+  width: 258px;
+  height: 203px;
+  border: 1px solid #b2c4d4;
+  outline: none;
+  position: absolute;
+  top: 33px;
+  left: 320px;
+  overflow: scroll;
+}
+.header .tabs-panel .tabs-content .tab-content-2 {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.header .tabs-panel .tabs-content .tab-content-2 .text_petition {
+  width: 35%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: #425666;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs-content .tab-content-2 .petition {
+  width: 70%;
+  height: 200px;
+  margin-left: 20px;
+}
+.header .tabs-panel .tabs-content .tab-content-2 .send_petition {
+  display: block;
+  margin-left: 20px;
+  margin-top: 22px;
+  width: 220px;
+  height: 41px;
+  border-radius: 20px;
+  border: 1px solid #9ab544;
+  background-color: #67bb0c;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs-content .tab-content-2 .send_petition:hover {
+  cursor: pointer;
+}
+.header .tabs-panel .tabs-content .tab-content-3 {
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.header .tabs-panel .tabs-content .tab-content-3 .user_name {
+  width: 35%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: #425666;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs-content .tab-content-3 .user {
+  width: 278px;
+  height: 32px;
+  margin-left: 20px;
+  border: 1px solid #b2c4d4;
+  outline: none;
+  padding-left: 20px;
+}
+.header .tabs-panel .tabs-content .tab-content-3 .user_password {
+  width: 35%;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  color: #425666;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs-content .tab-content-3 .password {
+  width: 278px;
+  height: 32px;
+  margin-left: 20px;
+  border: 1px solid #b2c4d4;
+  outline: none;
+  padding-left: 20px;
+}
+.header .tabs-panel .tabs-content .tab-content-3 .reg {
+  display: block;
+  margin-left: 20px;
+  margin-top: 22px;
+  width: 220px;
+  height: 41px;
+  border-radius: 20px;
+  border: 1px solid #9ab544;
+  background-color: #67bb0c;
+  outline: none;
+  color: #fff;
+  text-transform: uppercase;
+}
+.header .tabs-panel .tabs-content .tab-content-3 .reg:hover {
+  cursor: pointer;
+}
