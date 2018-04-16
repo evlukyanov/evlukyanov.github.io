@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Forms</title>
+	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:700" rel="stylesheet">
+</head>
+<body>
+	
+	
+	<div class="main">
+		<form action="thanks.html" id="form">
+			<p class="form_main_text">Сохрани свой аккаунт</p>
+			<p class="form_text">Получи бесплатно неограниченное количество форм, вопросов и ответов.</p>
+			<div class="inputs">
+				<input type="text" class="form-control_1" id="input_name" placeholder="Имя или никнейм" name="username">
+				<span class="name"></span>
+				<input type="text" class="form-control_2" id="input_mail" placeholder="Email" name="usermail">
+				<span class="mail"></span>
+				<input type="password" class="form-control_3" id="input_password" placeholder="Пароль" name="userpass">
+				<span class="password"></span>
+				<button class="btn"><p>Сохранить</p></button>
+			</div>
+			<p class="account">Уже есть аккаунт? <a href="#">Войти</a></p>
+		</form>
+	</div>
+
+
+
+
+	<script src="js/jquery-1.12.4.min.js"></script>
+	<script src="js/jquery.validate.min.js"></script>
+	<script>
+		$(function(){
+			$('#form').validate({
+				rules: {
+					username: {
+						required: true,
+						minlength: 2
+					},
+					usermail: {
+						required: true,
+						email: true,
+						minlength: 3
+					},
+					userpass: {
+						required: true,
+						minlength: 2
+					}
+				},
+				messages: {
+					username: {
+						required: "Обязательно для заполнения",
+						minlength: "Не менее 2-х символов"
+					},
+					usermail: {
+						required: "Обязательно для заполнения",
+						minlength: "Не менее 2-х символов",
+						email: "Введите корректный email"
+					},
+					userpass: {
+						required: "Обязательно для заполнения",
+						minlength: "Не менее 2-х символов"
+					}
+				}
+			});
+		});
+	</script>
+</body>
+</html>

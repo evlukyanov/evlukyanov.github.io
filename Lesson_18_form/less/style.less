@@ -1,0 +1,157 @@
+* {
+	box-sizing: border-box;
+}
+
+.main {
+	width: 1600px;
+	height: 900px;
+	background: url(../img/bg.png) no-repeat center center;
+	margin: 0 auto;
+	position: relative;
+	#form {
+		display: block;
+		width: 450px;
+		height: 610px;
+		border: 1px solid black;
+		position: absolute;
+		top: 150px;
+		left: 800px;
+		.form_main_text {
+			text-align: center;
+			font-family: 'Open Sans', sans-serif;
+			font-size: 24px;
+		}
+		.form_text {
+			text-align: center;
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 16px;
+		}
+		.inputs {
+			margin-top: 100px;
+			.form-control_1 {
+				margin: 10px auto;
+				display: block;
+				width: 330px;
+				height: 50px;
+				outline: none;
+				padding-left: 30px;
+				border: none;
+				border-bottom: 1px solid #aeaeae;
+			}
+			#input_name-error {
+				position: absolute;
+				top: 268px;
+				left: 100px;
+				font-size: 12px;
+				color: red;
+				border: none;
+			}
+			.error {
+				border: 1px solid red;
+			}
+			.name {
+				position: absolute;
+				top: 238px;
+				left: 55px;
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				background: url(../img/user.png) no-repeat center center;
+			}
+			.form-control_2 {
+				margin: 10px auto;
+				display: block;
+				width: 330px;
+				height: 50px;
+				outline: none;
+				padding-left: 30px;
+				border: none;
+				border-bottom: 1px solid #aeaeae;
+			}
+			#input_mail-error {
+				position: absolute;
+				top: 328px;
+				left: 100px;
+				font-size: 12px;
+				color: red;
+				border: none;
+			}
+			.error {
+				border: 1px solid red;
+			}
+			.mail {
+				position: absolute;
+				top: 295px;
+				left: 55px;
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				background: url(../img/mail.png) no-repeat center center;
+			}
+			.form-control_3 {
+				margin: 10px auto;
+				display: block;
+				width: 330px;
+				height: 50px;
+				outline: none;
+				padding-left: 30px;
+				border: none;
+				border-bottom: 1px solid #aeaeae;
+			}
+			#input_password-error {
+				position: absolute;
+				top: 388px;
+				left: 100px;
+				font-size: 12px;
+				color: red;
+				border: none;
+			}
+			.error {
+				border: 1px solid red;
+			}
+			.password {
+				position: absolute;
+				top: 357px;
+				left: 55px;
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				background: url(../img/password.png) no-repeat center center;
+			}
+			.btn {
+			width: 180px;
+			height: 55px;
+			margin-left: 135px;
+			margin-top: 30px;
+			border-radius: 25px;
+			border: none;
+			background-color: #82c5c3;
+			outline: none;
+			&:hover {
+				cursor: pointer;
+			}
+			p {
+				color: #fff;
+				font-family: 'Open Sans', sans-serif;
+				font-size: 16px;
+				&:after {
+					content: url(../img/right.png);
+					margin-left: 7px;
+					}
+				}
+			}
+		}
+		.account {
+			font-family: 'Ubuntu', sans-serif;
+			font-size: 14px;
+			margin-left: 60px;
+			margin-top: 50px;
+			a {
+				font-family: 'Ubuntu', sans-serif;
+				font-size: 14px;
+				color: #f69a7a;
+				margin-left: 10px;
+			}
+		}	
+	}
+}
