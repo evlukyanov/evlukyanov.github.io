@@ -32,3 +32,5 @@
 [Урок 17 Табы продвинутого курса](evlukyanov.github.io/Lesson_17_tabs/)
 
 [Урок 17 Аккордеон продвинутого курса](evlukyanov.github.io/Lesson_17_acc/)
+
+[Урок 18 Проверка формы на валидность прод. курса](evlukyanov.github.io/Lesson_18_form/)
