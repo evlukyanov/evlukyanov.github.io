@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Calculator</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="calc">
+            <p class="text-center" id="text">Расчет стоимости ремонта помещения</p>
+            <label for="width" class="col-md-4 control-label">Введите ширину, м</label>
+            <div class="col-md-8">
+              <input type="text" id="width" class="form-control">
+            </div>
+            <br>
+            <br>
+            <br>
+            <label for="height" class="col-md-4 control-label">Введите высоту, м</label>
+            <div class="col-md-8">
+              <input type="text" id="height" class="form-control">
+            </div>
+            <br>
+            <br>
+            <br>
+            <label for="lenght" class="col-md-4 control-label">Введите длину, м</label>
+            <div class="col-md-8">
+              <input type="text" id="lenght" class="form-control">
+            </div>
+            <br>
+            <br>
+            <br>
+            <label for="price" class="col-md-4 control-label">Стоимость кубического метра, р.</label>
+            <div class="col-md-8">
+              <input type="text" id="price" class="form-control">
+            </div>
+            <div class="btn">
+              <button type="button" class="btn-lg" id="count">Рассчитать</button>
+            </div>
+            <p class="final">Общая стоимость <span></span> р.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="js/jquery-1.12.4.min.js"></script>
+    <script>
+       
+      $(document).ready(function() {
+        var width, height, lenght, price;
+       $("input#width").keyup(function () {
+        width = $(this).val();
+        width = Number(width);
+          });
+       $("input#height").keyup(function () {
+        height = $(this).val();
+        height = Number(height);
+          });
+       $("input#lenght").keyup(function () {
+        lenght = $(this).val();
+        lenght = Number(lenght);
+          });
+       $("input#price").keyup(function () {
+        price = $(this).val();
+        price = Number(price);
+          });
+       
+       $('#count').click(function() {
+        var final = width * height * lenght * price;
+        $(".final span").text(final);
+       });
+
+        
+      });
+    </script>
+  </body>
+</html>
